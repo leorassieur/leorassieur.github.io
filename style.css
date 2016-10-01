@@ -4,10 +4,15 @@ body {
   background-color: #fdf6e3;
   margin: 0;
   text-align: center;
+  font-family: "Roboto", "Georgia", "Arial", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+body h4{
+  font-weight: 200;
 }
 
 header {
-  font-family: "Roboto", "Georgia", "Arial", sans-serif;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -20,6 +25,7 @@ header {
 header p {
   color: #586e75;
 }
+
 header h1 {
   letter-spacing: 0.1em;
   font-size: 2.5em;
@@ -31,4 +37,17 @@ header img {
   width: 3cm;
   height: 3cm;
   border-radius: 1.5cm;
+}
+
+#container img {
+  width: 30%;
+}
+
+#content {
+  float: right ;
+  width: 50% ;
+}
+#navbar {
+  float: right;
+  width: 50%;
 }
